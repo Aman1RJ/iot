@@ -1,0 +1,16 @@
+.brandname{
+  text-decoration: none;
+  font-size: 2rem;
+  flex: auto;
+  text-align: center;
+  color: #fff;
+
+}
+.brandname:hover{
+  color: #fff;
+}
+
+.flexdisp button{
+ display: flex;
+ justify-content: space-between;
+}
