@@ -1,5 +1,5 @@
 
 
 function ledhandel(x){
-  axios.get("http://192.168.43.85:3000/add/"+x);
+  axios.get("http://103.53.83.212/add/"+x);
 }
