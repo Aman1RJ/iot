@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="/master.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
   </head>
-  <body>
+  <body style="background:#ffcb91">
     <!-- As a link -->
 <nav class="navbar navbar-dark bg-success">
   <div class="container-fluid">
@@ -18,16 +18,58 @@
 <br>
 <div class="flexdisp">
   <center>
+    <div class="tag">
+      Control Your World by Just a Click
+    </div>
+<table class="styled-table">
+  <thead>
+    <tr>
+      <th>Button</th>
+      <th>Use</th>
+    </tr>
+  </thead>
+  <tbody>
+  <tr>
+    <td><button type="button" class="btn btn-outline-success" onclick="ledhandel(0)">ON/OFF</button></td>
+    <td>Backlit LED</td>
+  </tr>
+  <tr>
+    <td><button type="button" class="btn btn-outline-success" onclick="ledhandel(1)">ON/OFF</button></td>
+    <td>LED PAIR 1</td>
+  </tr>
+  <tr>
+    <td><button type="button" class="btn btn-outline-success" onclick="ledhandel(2)">ON/OFF</button></td>
+    <td>LED PAIR 2</td>
+  </tr>
+  <tr>
+    <td><button type="button" class="btn btn-outline-success" onclick="ledhandel(3)">ON/OFF</button></td>
+    <td>LED PAIR 3</td>
+  </tr>
+  <tr>
+    <td><button type="button" class="btn btn-outline-success" onclick="ledhandel(4)">ON/OFF</button></td>
+    <td>FAN/TUBELIGHT</td>
+  </tr>
+  <tr>
+    <td><button type="button" class="btn btn-outline-success" onclick="ledhandel(5)">ON/OFF</button></td>
+    <td>NONE</td>
+  </tr>
+  <tr>
+    <td><button type="button" class="btn btn-outline-success" onclick="ledhandel(6)">ON/OFF</button></td>
+    <td>NONE</td>
+  </tr>
+</tbody>
+
+</table>
 
 
-<button type="button" class="btn btn-outline-success" onclick="ledhandel(0)">LED</button>
-<button type="button" class="btn btn-outline-success" onclick="ledhandel(1)">LED</button>
-<button type="button" class="btn btn-outline-success" onclick="ledhandel(2)">LED</button>
-<button type="button" class="btn btn-outline-success" onclick="ledhandel(3)">LED</button>
-<button type="button" class="btn btn-outline-success" onclick="ledhandel(4)">LED</button>
 
 </center>
 </div>
+<footer>
+  <center>
+  <p>WE ARE TAKHLI.WE LOVE AUTOMATION</p>
+</center>
+</footer>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.21.1/axios.min.js" integrity="sha512-bZS47S7sPOxkjU/4Bt0zrhEtWx0y0CRkhEp8IckzK+ltifIIE9EMIMTuT/mEzoIMewUINruDBIR/jJnbguonqQ==" crossorigin="anonymous"></script>
     <script src="/script.js" charset="utf-8"></script>
